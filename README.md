@@ -1,6 +1,8 @@
-<h1 align="center">Welcome to Zach's Portfolio 👋</h1>
+<h1 align="center">Welcome to portfolio 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://www.npmjs.com/package/portfolio" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/portfolio.svg">
+  </a>
   <img src="https://img.shields.io/badge/node-%3E%3D12.18.3-blue.svg" />
   <img src="https://img.shields.io/badge/npm-%3E%3D6.14.7-blue.svg" />
   <a href="https://github.com/zjayers/portfolio#readme" target="_blank">
@@ -10,7 +12,7 @@
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
   <a href="https://github.com/zjayers/portfolio/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/zjayers/Zach's Portfolio" />
+    <img alt="License: MIT" src="https://img.shields.io/github/license/zjayers/portfolio" />
   </a>
 </p>
 
