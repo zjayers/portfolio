@@ -43,7 +43,7 @@ export const projectsData = [
     img: 'chalkboard.png',
     title: 'Chalkboard',
     info:
-      'Collaborative drawing applications for users to create, edit, and delete sketches in real time.',
+      'Collaborative drawing application for users to create, edit, and delete sketches in real time.',
     info2: 'React | Socket.IO | Node',
     url: 'https://ayers-chalkboard.herokuapp.com/',
     repo: 'https://github.com/zjayers/chalkboard', // if no repo, the button will not show up
