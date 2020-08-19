@@ -10,8 +10,8 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: 'Hi, my name is',
-  name: 'Zachariah Ayers',
-  subtitle: "I'm a Full-Stack Software Engineer",
+  name: 'Zachariah Ayers.',
+  subtitle: "I'm a Full-Stack Software Engineer.",
   cta: 'About Me',
 };
 
@@ -22,7 +22,7 @@ export const aboutData = {
   paragraphTwo:
     'He has experience architecting applications on both the front and backend while managing a team of developers using Agile Software Development.',
   paragraphThree:
-    'He has experience in cutting edge frameworks and technologies such as Angular, React, Node, and Django. An experienced engineer with a love for automation and robotics - he combines his analytical mind and creative ability to bring complex projects to life.',
+    'He has experience in cutting-edge frameworks and technologies such as Angular, React, Node, and Django. An experienced engineer with a love for automation and robotics - he combines his analytical mind and creative ability to bring complex projects to life.',
   resume: 'https://drive.google.com/file/d/12RFbSK8QHu5yjC0fwS86L-IK8icvHcBw/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -61,7 +61,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'twiddler.png',
     title: 'Twiddler',
-    info: 'Twitter mock-up for a client looking for the same capabilities of Twitter',
+    info:
+      'Twitter mock-up for a client looking for the same capabilities of a real-time messaging application.',
     info2: 'HTML | CSS | JavaScript',
     url: 'https://twiddler-ayers.netlify.app/',
     repo: 'https://github.com/zjayers/seip2005-twiddler', // if no repo, the button will not show up
