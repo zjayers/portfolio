@@ -57,6 +57,15 @@ export const projectsData = [
     url: 'https://cowlist-ayers.herokuapp.com/',
     repo: 'https://github.com/zjayers/hrr46-cowlist', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'twiddler.png',
+    title: 'Twiddler',
+    info: 'Twitter mock-up for a client looking for the same capabilities of Twitter',
+    info2: 'HTML | CSS | JavaScript',
+    url: 'https://twiddler-ayers.netlify.app/',
+    repo: 'https://github.com/zjayers/seip2005-twiddler', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
