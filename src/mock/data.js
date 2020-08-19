@@ -23,8 +23,7 @@ export const aboutData = {
     'He has experience architecting applications on both the front and backend while managing a team of developers using Agile Software Development.',
   paragraphThree:
     'He has experience in cutting edge frameworks and technologies such as Angular, React, Node, and Django. An experienced engineer with a love for automation and robotics - he combines his analytical mind and creative ability to bring complex projects to life.',
-  resume:
-    'https://docs.google.com/document/d/1egYRe0AmvorQPtTUQYyZ8ir-rslZbpbM6nDvT2xsoDk/edit?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/12RFbSK8QHu5yjC0fwS86L-IK8icvHcBw/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
