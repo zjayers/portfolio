@@ -23,7 +23,8 @@ export const aboutData = {
     'He has experience architecting applications on both the front and backend while managing a team of developers using Agile Software Development.',
   paragraphThree:
     'He has experience in cutting edge frameworks and technologies such as Angular, React, Node, and Django. An experienced engineer with a love for automation and robotics - he combines his analytical mind and creative ability to bring complex projects to life.',
-  resume: 'https://zjayers.github.io/resume/', // if no resume, the button will not show up
+  resume:
+    'https://docs.google.com/gview?url=https://github.com/zjayers/resume/raw/master/Zach_Ayers%20-%20Resume.pdf&embedded=true', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
