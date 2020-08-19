@@ -1,18 +1,27 @@
-<h1 align="center">Welcome to gatsby-starter-hello-world 👋</h1>
+<h1 align="center">Welcome to Zach's Portfolio 👋</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/gatsbyjs/gatsby-starter-hello-world#readme" target="_blank">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <img src="https://img.shields.io/badge/node-%3E%3D12.18.3-blue.svg" />
+  <img src="https://img.shields.io/badge/npm-%3E%3D6.14.7-blue.svg" />
+  <a href="https://github.com/zjayers/portfolio#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
-  <a href="https://github.com/gatsbyjs/gatsby-starter-hello-world/graphs/commit-activity" target="_blank">
+  <a href="https://github.com/zjayers/portfolio/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
   </a>
-  <a href="https://github.com/gatsbyjs/gatsby-starter-hello-world/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/gatsbyjs/gatsby-starter-hello-world" />
+  <a href="https://github.com/zjayers/portfolio/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/zjayers/Zach's Portfolio" />
   </a>
 </p>
 
-> A simplified bare-bones starter for Gatsby
+> Portfolio showcase of Zach Ayers's previous work
+
+### 🏠 [Homepage](https://zjayers.github.io/portfolio/)
+
+## Prerequisites
+
+- node >=12.18.3
+- npm >=6.14.7
 
 ## Install
 
@@ -34,12 +43,14 @@ yarn run test
 
 ## Author
 
-- Website: https://gatsbyjs.org
-- Github: [@gatsbyjs](https://github.com/gatsbyjs)
+👤 **Zach Ayers**
+
+- Website: https://www.zachayers.io
+- Github: [@zjayers](https://github.com/zjayers)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/gatsbyjs/gatsby/issues). You can also take a look at the [contributing guide](https://github.com/gatsbyjs/gatsby-starter-hello-world/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/zjayers/portfolio/issues). You can also take a look at the [contributing guide](https://github.com/zjayers/portfolio/blob/master/CONTRIBUTING.md).
 
 ## Show your support
 
@@ -47,7 +58,8 @@ Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/gatsbyjs/gatsby-starter-hello-world/blob/master/LICENSE) licensed.
+Copyright © 2020 [Zach Ayers](https://github.com/zjayers).<br />
+This project is [MIT](https://github.com/zjayers/portfolio/blob/master/LICENSE) licensed.
 
 ---
 
