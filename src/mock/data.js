@@ -30,42 +30,49 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'lively.png',
+    title: 'Lively',
+    info: 'Social event application for sharing, attending, and following events / users.',
+    info2: 'ASP.NET Core 5 | Entity Framework | React | TypeScript',
+    url: 'https://livelyapp.azurewebsites.ne',
+    repo: 'https://github.com/zjayers/asp.net.core.react', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'natours.png',
     title: 'Natours',
     info:
-      'Nature trail application for booking, purchasing, and exploring user created trails around the globe!',
-    info2: 'React | Redux | Stripe | Node',
+      'Nature trail application for booking, purchasing, and exploring user created trails around the globe.',
+    info2: 'React | Redux | Stripe | Node | JavaScript',
     url: 'http://natours-ayers.herokuapp.com/',
     repo: 'https://github.com/zjayers/natours', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'chalkboard.png',
-    title: 'Chalkboard',
-    info:
-      'Collaborative drawing application for users to create, edit, and delete sketches in real time.',
-    info2: 'React | Socket.IO | Node',
-    url: 'https://ayers-chalkboard.herokuapp.com/',
-    repo: 'https://github.com/zjayers/chalkboard', // if no repo, the button will not show up
+    img: 'nexter.png',
+    title: 'Nexter',
+    info: 'Landing page for a modern real estate firm.',
+    info2: 'HTML | SCSS | JavaScript',
+    url: 'https://zjayers.github.io/design.nexter/',
+    repo: 'https://github.com/zjayers/design.nexter', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'cowaround.png',
-    title: 'Cow Around',
-    info: 'Light-hearted visualizer for creating, editing, and deleting temperamental cows.',
-    info2: 'React | Redux | MySQL | Node',
-    url: 'https://cowlist-ayers.herokuapp.com/',
-    repo: 'https://github.com/zjayers/hrr46-cowlist', // if no repo, the button will not show up
+    img: 'trillo.png',
+    title: 'Trillo',
+    info: 'Landing page for hotel booking, messaging, notifications, and reviews.',
+    info2: 'HTML | SCSS | JavaScript',
+    url: 'https://zjayers.github.io/design.trillo/',
+    repo: 'https://github.com/zjayers/design.trillo', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'twiddler.png',
-    title: 'Twiddler',
-    info:
-      'Twitter mock-up for a client looking for the same capabilities of a real-time messaging application.',
-    info2: 'HTML | CSS | JavaScript',
-    url: 'https://twiddler-ayers.netlify.app/',
-    repo: 'https://github.com/zjayers/seip2005-twiddler', // if no repo, the button will not show up
+    img: 'aurora.png',
+    title: 'Aurora Grove',
+    info: 'Mockup landing page for booking campsites',
+    info2: 'Bootstrap | SCSS | JavaScript ',
+    url: 'https://zjayers.github.io/design.bootstrap/',
+    repo: 'https://github.com/zjayers/design.bootstrap', // if no repo, the button will not show up
   },
 ];
 
