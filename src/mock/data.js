@@ -34,7 +34,7 @@ export const projectsData = [
     title: 'Lively',
     info: 'Social event application for sharing, attending, and following events / users.',
     info2: 'ASP.NET Core 5 | Entity Framework | React | TypeScript',
-    url: 'https://livelyapp.azurewebsites.ne',
+    url: 'https://livelyapp.azurewebsites.net',
     repo: 'https://github.com/zjayers/asp.net.core.react', // if no repo, the button will not show up
   },
   {
