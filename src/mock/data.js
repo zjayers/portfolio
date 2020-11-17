@@ -60,6 +60,17 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'vocation.png',
+    title: 'Vocation',
+    info:
+      'Light-weight browser overlay that uses pre-defined templates to generate cover letters, outreach messages, and recruiter responses.',
+    info2: 'Vue | Chrome Plugin',
+    url:
+      'https://chrome.google.com/webstore/detail/vocation/icppkimiacdjokmejcmlhhdphlanokbo?hl=en',
+    repo: 'https://github.com/zjayers/proto.vue.jobscan', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'nexter.png',
     title: 'Nexter',
     info: 'Landing page for a modern real estate firm.',
