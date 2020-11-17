@@ -3,11 +3,13 @@ function random(min, max) {
   return Math.random() * (max - min) + min;
 }
 
-window.requestAnimFrame = (function () {
+const w = {};
+
+w.requestAnimFrame = (function () {
   return (
-    window.requestAnimationFrame ||
+    w.requestAnimationFrame ||
     function (callback) {
-      window.setTimeout(callback, 1000 / 60);
+      w.setTimeout(callback, 1000 / 60);
     }
   );
 })();
@@ -148,7 +150,7 @@ function draw() {
 function init() {} // end init
 
 function animate() {
-  window.requestAnimFrame(animate);
+  w.requestAnimFrame(animate);
   draw();
 }
 
