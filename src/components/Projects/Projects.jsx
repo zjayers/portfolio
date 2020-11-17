@@ -44,10 +44,20 @@ const Projects = () => {
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
                         <p>
-                          {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                          <i>
+                            {info ||
+                              'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                          </i>
                         </p>
-                        <p className="mb-4">{info2 || ''}</p>
+                        <ul style={{ margin: 0 }}>
+                          {info2.length &&
+                            info2.split('|').map((i, index) => (
+                              // eslint-disable-next-line react/no-array-index-key
+                              <li key={i + index}>
+                                <p>{i}</p>
+                              </li>
+                            ))}
+                        </ul>
                       </div>
                       <a
                         target="_blank"

@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
+import '../../mock/animate';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -23,6 +24,12 @@ const Header = () => {
 
   return (
     <section id="hero" className="jumbotron">
+      <div className="hero">
+        <div className="overlay" />
+        <div className="background">
+          <canvas id="hero-canvas" width="1920" height="1080" />
+        </div>
+      </div>
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={500} delay={200} distance="30px">
           <h1 className="hero-title">
@@ -36,7 +43,7 @@ const Header = () => {
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={500}>
-                {cta || 'Know more'}
+                {cta || 'About Me'}
               </Link>
             </span>
           </p>

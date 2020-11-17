@@ -18,11 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: 'Zach is a software engineer specializing in JavaScript, Python, & C#.',
+  paragraphOne:
+    'I am a software engineer specializing in JavaScript, TypeScript, React, C#, and .NET Core.',
   paragraphTwo:
-    'He has experience architecting applications on both the front and backend while managing a team of developers using Agile Software Development.',
+    'I have 5 years of experience architecting applications on both the front and back-end while managing a team of developers using Jira and Scrum workflows.',
   paragraphThree:
-    'He has experience in cutting-edge frameworks and technologies such as Angular, React, Node, and Django. An experienced engineer with a love for automation and robotics - he combines his analytical mind and creative ability to bring complex projects to life.',
+    'I have experience in cutting-edge frameworks such as Angular, React, Nextjs, Express, and .NET Core 5. As an experienced engineer with a love for automation and robotics - I combine my analytical mind and creative ability to bring complex projects to life.',
   resume: 'https://drive.google.com/file/d/12RFbSK8QHu5yjC0fwS86L-IK8icvHcBw/view?usp=sharing', // if no resume, the button will not show up
 };
 
@@ -30,22 +31,32 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'lively.png',
-    title: 'Lively',
-    info: 'Social event application for sharing, attending, and following events / users.',
-    info2: 'ASP.NET Core 5 | Entity Framework | React | TypeScript',
-    url: 'https://livelyapp.azurewebsites.net',
-    repo: 'https://github.com/zjayers/asp.net.core.react', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'natours.png',
     title: 'Natours',
     info:
       'Nature trail application for booking, purchasing, and exploring user created trails around the globe.',
-    info2: 'React | Redux | Stripe | Node | JavaScript',
+    info2: 'React | Redux | Stripe | Node | JavaScript | Heroku',
     url: 'http://natours-ayers.herokuapp.com/',
     repo: 'https://github.com/zjayers/natours', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'donewithit.png',
+    title: 'Done With It',
+    info:
+      'Social application for posting, selling, and connecting with buyers of various products.',
+    info2: 'React Native | Expo | Nestjs | TypeScript | Github Actions',
+    url: 'https://zjayers.github.io/host.donewithit/',
+    repo: 'https://github.com/zjayers/react.native.complete', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'lively.png',
+    title: 'Lively',
+    info: 'Social event application for sharing, attending, and following events / users.',
+    info2: 'ASP.NET Core 5 | Entity Framework | React | TypeScript | Azure',
+    url: 'https://livelyapp.azurewebsites.net',
+    repo: 'https://github.com/zjayers/asp.net.core.react', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
