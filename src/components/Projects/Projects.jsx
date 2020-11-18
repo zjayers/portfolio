@@ -36,8 +36,8 @@ const Projects = () => {
                   <Fade
                     left={isDesktop}
                     bottom={isMobile}
-                    duration={500}
-                    delay={200}
+                    duration={300}
+                    delay={0}
                     distance="30px"
                   >
                     <div className="project-wrapper__text">
@@ -85,8 +85,8 @@ const Projects = () => {
                   <Fade
                     right={isDesktop}
                     bottom={isMobile}
-                    duration={500}
-                    delay={300}
+                    duration={300}
+                    delay={0}
                     distance="30px"
                   >
                     <div className="project-wrapper__image">
