@@ -38,8 +38,8 @@ const Header = () => {
       // setup canvas enviroment
       const time = new Date().getTime() * 0.002;
       // console.log(time);
-      const color1 = 'rgba(2,170,176, 0.4)';
-      const color2 = 'rgba(0,205,172, 0.4)';
+      const color1 = 'rgba(17,21,28, 0.4)';
+      const color2 = 'rgba(17,21,28, 0.4)';
       const canvas = document.getElementById('hero-canvas');
       const ctx = document.getElementById('hero-canvas').getContext('2d');
       ctx.clearRect(0, 0, canvas.width, canvas.height);
