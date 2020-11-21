@@ -35,7 +35,7 @@ export const projectsData = [
     title: 'Natours',
     info:
       'Nature trail application for booking, purchasing, and exploring user created trails around the globe.',
-    info2: 'React | Redux | Stripe | Node | JavaScript | Heroku',
+    info2: 'React | Redux | Stripe | Express | JavaScript | MongoDB | Heroku',
     url: 'http://natours-ayers.herokuapp.com/',
     repo: 'https://github.com/zjayers/natours', // if no repo, the button will not show up
   },
@@ -45,7 +45,7 @@ export const projectsData = [
     title: 'Done With It',
     info:
       'Social application for posting, selling, and connecting with buyers of various products.',
-    info2: 'React Native | Expo | Nestjs | TypeScript | Github Actions',
+    info2: 'React Native | Expo | Nestjs | TypeScript | MySQL | Github Actions',
     url: 'https://zjayers.github.io/host.donewithit/',
     repo: 'https://github.com/zjayers/react.native.complete', // if no repo, the button will not show up
   },
@@ -54,7 +54,7 @@ export const projectsData = [
     img: 'lively.png',
     title: 'Lively',
     info: 'Social event application for sharing, attending, and following events / users.',
-    info2: 'ASP.NET Core 5 | Entity Framework | React | TypeScript | Azure',
+    info2: 'ASP.NET Core 5 | Entity Framework | React | TypeScript | Microsoft SQL Server | Azure',
     url: 'https://livelyapp.azurewebsites.net',
     repo: 'https://github.com/zjayers/asp.net.core.react', // if no repo, the button will not show up
   },
