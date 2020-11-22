@@ -54,9 +54,20 @@ export const projectsData = [
     img: 'lively.png',
     title: 'Lively',
     info: 'Social event application for sharing, attending, and following events / users.',
-    info2: 'ASP.NET Core 5 | Entity Framework | React | TypeScript | Microsoft SQL Server | Azure',
+    info2:
+      'ASP.NET Core 5 | Entity Framework | React | TypeScript | C# | Microsoft SQL Server | Azure',
     url: 'https://livelyapp.azurewebsites.net',
     repo: 'https://github.com/zjayers/asp.net.core.react', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'mfe.png',
+    title: 'Micro Front Ends',
+    info: 'Template application built with Webpack Module Federation - combining multiple front-end apps into a single container.',
+    info2:
+      'React | Vue | Webpack Module Federation | Material UI | JavaScript | Amazon S3 | Amazon Cloudfront | Github Actions',
+    url: 'https://dod1fwu8el2f8.cloudfront.net/',
+    repo: 'https://github.com/zjayers/mfe.complete', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
