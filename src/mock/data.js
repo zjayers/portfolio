@@ -87,7 +87,7 @@ export const projectsData = [
     info: 'Model-View-Controller framework built in PHP 7.+ and deployed on LAMP stack EC2 instance.',
     info2: 'PHP | PDO | MySQL | Apache | Amazon EC2 | LAMP Stack',
     url: 'http://ec2-52-14-3-104.us-east-2.compute.amazonaws.com/php.mvc.blog/',
-    repo: 'https://github.com/zjayers/php.mvc.blog', // if no repo, the button will not show up
+    repo: 'https://github.com/zjayers/php.mvc.framework', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
