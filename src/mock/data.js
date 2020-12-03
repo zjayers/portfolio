@@ -61,9 +61,19 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'remix.png',
+    title: 'Remix IDE',
+    info: 'Popular Etherium/Solidity IDE ported to Mac Desktops (packaged with electron)',
+    info2: 'Electron | Javascript | Etherium | Solidity | Blockchain ',
+    url: 'https://github.com/zjayers/remix.ide/releases/tag/1.0',
+    repo: 'https://github.com/zjayers/remix.ide', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'mfe.png',
     title: 'Micro Front Ends',
-    info: 'Template application built with Webpack Module Federation - combining multiple front-end apps into a single container.',
+    info:
+      'Template application built with Webpack Module Federation - combining multiple front-end apps into a single container.',
     info2:
       'React | Vue | Webpack Module Federation | Material UI | JavaScript | Amazon S3 | Amazon Cloudfront | Github Actions',
     url: 'https://dod1fwu8el2f8.cloudfront.net/',
@@ -84,7 +94,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'shareposts.png',
     title: 'CraterMVC PHP Framework',
-    info: 'Model-View-Controller framework built in PHP 7.+ and deployed on LAMP stack EC2 instance.',
+    info:
+      'Model-View-Controller framework built in PHP 7.+ and deployed on LAMP stack EC2 instance.',
     info2: 'PHP | PDO | MySQL | Apache | Amazon EC2 | LAMP Stack',
     url: 'http://ec2-52-14-3-104.us-east-2.compute.amazonaws.com/php.mvc.blog/',
     repo: 'https://github.com/zjayers/php.mvc.framework', // if no repo, the button will not show up
