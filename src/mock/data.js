@@ -129,10 +129,22 @@ export const projectsData = [
   },
 ];
 
+export const metricsData = {
+  id: nanoid(),
+  img: 'metrics.png',
+  title: 'Portfolio Site: Metrics',
+  info:
+    'SEO optimized, Progressive Web Application. Click the link below to open and run the lighthouse report',
+  info2: 'PWA | Gatsby | React | GraphQL | Lighthouse ',
+  url:
+    'https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fzachayers.io%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext',
+  repo: 'https://github.com/zjayers/portfolio', // if no repo, the button will not show up
+};
+
 // CONTACT DATA
 export const contactData = {
   cta: 'I would love to work with you!',
-  btn: 'Contact Me',
+  btn: 'Email Me',
   email: 'z.ayers@icloud.com',
 };
 

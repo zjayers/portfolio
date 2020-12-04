@@ -1,7 +1,7 @@
 .footer {
   background-color: $dark-grey;
   color: $white-color;
-  padding: 4.8rem 0;
+  padding: .25rem 0;
 
   @include respond(phone) {
     border: 0px;
@@ -28,8 +28,8 @@
   }
 
   & hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
     border: 0;
     width: 50%;
     border-top: 2px solid rgba(255, 255, 255, 0.1);
