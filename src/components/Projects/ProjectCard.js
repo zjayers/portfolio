@@ -32,16 +32,14 @@ const ProjectCard = ({ project, isMetrics }) => {
         Run them yourself!
       </a>
     ) : (
-      <div>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          className="cta-btn cta-btn--hero"
-          href={url || '#!'}
-        >
-          See Live
-        </a>
-      </div>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        className="cta-btn cta-btn--hero"
+        href={url || '#!'}
+      >
+        See Live
+      </a>
     );
   };
 
