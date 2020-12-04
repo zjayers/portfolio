@@ -19,9 +19,10 @@
   }
 
   .rounded-giant {
-    border-radius: 60px !important;
+    border-radius: 10px !important;
     overflow: hidden;
   }
+
 
   .about-wrapper {
     @include respond(phone) {

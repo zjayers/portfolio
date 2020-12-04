@@ -33,13 +33,7 @@ const Projects = () => {
             return (
               <Row key={id}>
                 <Col lg={4} sm={12}>
-                  <Fade
-                    left={isDesktop}
-                    bottom={isMobile}
-                    duration={300}
-                    delay={0}
-                    distance="30px"
-                  >
+                  <Fade left={isDesktop} bottom={isMobile} duration={300} delay={0} distance="30px">
                     <div className="project-wrapper__text">
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
@@ -96,7 +90,7 @@ const Projects = () => {
                         aria-label="Project Link"
                         rel="noopener noreferrer"
                       >
-                        <div className="rounded-giant">
+                        <div className="rounded-giant" style={{ borderRadius: '10px' }}>
                           <Tilt
                             options={{
                               reverse: false,
@@ -110,7 +104,7 @@ const Projects = () => {
                               easing: 'cubic-bezier(.03,.98,.52,.99)',
                             }}
                           >
-                            <div data-tilt className="thumbnail rounded">
+                            <div data-tilt className="thumbnail" style={{ borderRadius: '10px' }}>
                               <ProjectImg className="rounded-lg" alt={title} filename={img} />
                             </div>
                           </Tilt>
