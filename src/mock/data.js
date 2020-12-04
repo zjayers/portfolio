@@ -63,7 +63,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'remix.png',
     title: 'Remix IDE',
-    info: 'Popular Etherium/Solidity IDE ported to Mac Desktops (packaged with electron)',
+    info: 'Popular Etherium/Solidity IDE ported to Mac Desktops (packaged with electron).',
     info2: 'Electron | Javascript | Etherium | Solidity | Blockchain ',
     url: 'https://github.com/zjayers/remix.ide/releases/tag/1.0',
     repo: 'https://github.com/zjayers/remix.ide', // if no repo, the button will not show up
@@ -122,7 +122,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'aurora.png',
     title: 'Aurora Grove',
-    info: 'Mockup landing page for booking campsites',
+    info: 'Mockup landing page for viewing and booking campsites.',
     info2: 'Bootstrap | SCSS | JavaScript ',
     url: 'https://zjayers.github.io/design.bootstrap/',
     repo: 'https://github.com/zjayers/design.bootstrap', // if no repo, the button will not show up
@@ -132,9 +132,9 @@ export const projectsData = [
 export const metricsData = {
   id: nanoid(),
   img: 'metrics.png',
-  title: 'Portfolio Site: Metrics',
+  title: 'Portfolio: Site Metrics',
   info:
-    'SEO optimized, Progressive Web Application. Click the link below to open and run the lighthouse report',
+    'SEO optimized, Progressive Web Application. Click the link below to open and run the lighthouse report.',
   info2: 'PWA | Gatsby | React | GraphQL | Lighthouse ',
   url:
     'https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2F%2Fzachayers.io%2F&strategy=mobile&category=performance&category=accessibility&category=best-practices&category=seo&category=pwa&utm_source=lh-chrome-ext',
