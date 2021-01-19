@@ -70,6 +70,15 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'hostify.png',
+    title: 'Hostify',
+    info: 'Front-end mockup for a web deployment/hosting service.',
+    info2: 'HTML | CSS | JavaScript',
+    url: 'https://zjayers.github.io/hostify/',
+    repo: 'https://github.com/zjayers/hostify', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'mfe.png',
     title: 'Micro Front Ends',
     info:
