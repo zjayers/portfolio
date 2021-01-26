@@ -19,12 +19,12 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    '• Software engineer specializing in JavaScript, TypeScript, React, C#, and .NET Core.',
+    '• Software engineer specializing in Java, Spring (Boot & Cloud), JavaScript, TypeScript, React, C#, and .NET Core.',
   paragraphTwo:
     '• 5 years of experience architecting applications on both the front and back-end while managing a team of developers using Jira and Scrum workflows.',
   paragraphThree:
-    '• Mastery in cutting-edge frameworks such as Angular, React, Nextjs, Express, and .NET Core 5. As an experienced engineer with a love for automation and robotics - I combine my analytical mind and creative ability to bring complex projects to life.',
-  resume: 'https://drive.google.com/file/d/12RFbSK8QHu5yjC0fwS86L-IK8icvHcBw/view?usp=sharing', // if no resume, the button will not show up
+    '• Mastery in cutting-edge frameworks such as Angular, React, Nextjs, Express, and Spring. As an experienced engineer with a love for automation and robotics - I combine my analytical mind and creative ability to bring complex projects to life.',
+  resume: 'https://drive.google.com/file/d/17opsXRe6iq52D4VRKOXLznSAoZ9_gbGA/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
