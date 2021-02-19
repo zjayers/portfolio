@@ -190,10 +190,10 @@ const Header = () => {
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={300} delay={0} distance="30px">
           <h1 className="hero-title">
-            {title || 'Hi, my name is'}{' '}
-            <span className="text-color-main">{name || 'Zachariah Ayers'}</span>
+            {title || 'Hi,I\'m'}{' '}
+            <span className="text-color-main">{name || 'Zachariah Ayers,'}</span>
             <br />
-            {subtitle || "I'm a Full-Stack Software Engineer."}
+            {subtitle || "Full-Stack Software Engineer."}
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={300} delay={0} distance="30px">
