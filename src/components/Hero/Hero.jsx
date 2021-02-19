@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
+import { PopupWidget } from 'react-calendly';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -205,6 +206,7 @@ const Header = () => {
           </p>
         </Fade>
       </Container>
+      <PopupWidget url="https://calendly.com/zjayers" />
     </section>
   );
 };
